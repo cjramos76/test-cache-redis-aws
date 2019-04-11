@@ -1,0 +1,10 @@
+server:
+  port: 5000
+spring:
+  cache:
+    cache-names: people
+    redis:
+      time-to-live: 600000
+  redis:
+    host: test-cloud-redis.r2xgol.ng.0001.use2.cache.amazonaws.com
+    port: 6379
